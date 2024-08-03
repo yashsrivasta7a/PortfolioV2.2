@@ -18,9 +18,11 @@ const Footer = () => {
         <h1 className="heading lg:max-w-[45vw]">
           Let&apos;s <span className="text-purple">Connect</span>
         </h1>
-        <a href="mailto:yashsrivasta7a@gmail.com">
-          <MagicButton title="Get in touch" position="right" />
-        </a>
+        <MagicButton
+          title="Get in touch"
+          position="right"
+          icon={<FaLocationArrow />}
+        />
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
