@@ -27,7 +27,7 @@ function Grid() {
             <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-6 gap-8 p-2 md:p-7">
               {/* Your images here */}
               <img
-                src="/Tech Stack/c++.svg"
+                src="/Tech Stack/C++.svg"
                 alt="Tech 1"
                 className="md:w-16 md:h-16 w-12 h-10 object-cover"
               />
