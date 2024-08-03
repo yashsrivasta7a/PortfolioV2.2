@@ -20,13 +20,14 @@ const Experience = () => {
               YASH SRIVASTAVA
             </h1>
             <p className="text-base lg:text-lg font-semibold">
-              I’m a 20-year-old UI/UX Designer diving into web development while
-              pursuing my BTech. Over the past four years, I've crafted standout
-              graphic designs and collaborated with big names in Indian rap. My
-              designs aren't just visuals—they're vibrant stories that bring
-              digital landscapes to life. I blend creativity with a fun,
-              engaging persona and see design as storytelling. Join me on this
-              journey where creativity meets technology!
+              I&apos;m a 20-year-old UI/UX Designer diving into web development
+              while pursuing my BTech. Over the past four years, I&apos;ve
+              crafted standout graphic designs and collaborated with big names
+              in Indian rap. My designs aren&apos;t just visuals—they&apos;re
+              vibrant stories that bring digital landscapes to life. I blend
+              creativity with a fun, engaging persona and see design as
+              storytelling. Join me on this journey where creativity meets
+              technology!
             </p>
           </div>
           <img
@@ -47,7 +48,7 @@ const Experience = () => {
                 background: "rgb(4,7,29)",
                 backgroundColor:
                   "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-                borderRadius: `calc(1.75rem* 0.96)`,
+                borderRadius: `calc(1.75rem * 0.96)`,
               }}
               className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
             >
