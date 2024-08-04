@@ -31,7 +31,7 @@ const RecentProjects = () => {
               Track your realtime location
             </h1>
             <a
-              href="https://trackit-5orj.onrender.com/"
+              href="https://trackit-o0j8.onrender.com/"
               className="top-1 ml-5 z-0 relative bottom-8"
             >
               <MagicButton
