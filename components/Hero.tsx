@@ -4,7 +4,7 @@ import { SparklesCore } from "./ui/sparkles";
 import { FlipWords } from "./ui/Flip-words";
 import { socialMedia } from "@/data";
 
-const words = ["SRIVATAVA", "SRIVATA7A"];
+const words = ["SRIVASTAVA", "SRIVASTA7A"];
 
 const Hero = () => {
   return (
