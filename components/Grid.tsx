@@ -3,15 +3,15 @@ import { SparklesCore } from "./ui/sparkles";
 
 function Grid() {
   return (
-    <section className="relative overflow-hidden pb-20 ">
+    <section className="overflow-hidden ">
       {/* Grid Content */}
-      <div className="relative z-20 flex flex-col items-center">
-        <div className="flex justify-center gap-16 mb-16">
+      <div className="relative z-20 flex flex-col items-center pt-11">
+        <div className="flex justify-center gap-16 mb-26">
           <div className="hidden lg:flex flex-col items-center">
-            <h1 className="relative text-9xl font-bold font-sans pt-16 text-white text-transparent bg-clip-text">
+            <h1 className=" text-9xl font-bold font-sans pt-16 text-white text-transparent bg-clip-text">
               TECH
             </h1>
-            <h2 className="absolute text-purple text-6xl font-bold pacifico-font top-44">
+            <h2 className="absolute text-purple text-6xl font-bold pacifico-font top-56">
               Stack
             </h2>
           </div>
@@ -26,7 +26,7 @@ function Grid() {
           >
             <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-6 gap-8 p-2 md:p-7">
               {/* Your images here */}
-             
+
               <img
                 src="/Tech Stack/css3.svg"
                 alt="Tech 2"

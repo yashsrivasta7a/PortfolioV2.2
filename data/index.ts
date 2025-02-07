@@ -1,8 +1,11 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Contact", link: "#contact" },
-  { name: "Resume", link: "#experience" },
+  { name: "About", link: "" },
+  { name: "Projects", link: "" },
+  { name: "Contact", link: "mailto:yashsrivasta7a@gmail.com" },
+  {
+    name: "Resume",
+    link: "https://drive.google.com/file/d/1bennsCbEEvs5AMXl9ICGs3QV6nc9bvYh/view?usp=sharing",
+  },
 ];
 
 export const projects = [
@@ -109,8 +112,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Backend Developer",
-    desc: "Crafting foundational backend solutions with a focus on learning and growth.",
+    title: "Developer",
+    desc: "Crafting foundational solutions with a focus on learning and growth.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
     linkImage: "/git.svg",
