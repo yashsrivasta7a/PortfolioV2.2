@@ -1,10 +1,11 @@
 export const navItems = [
-  { name: "About", link: "" },
-  { name: "Projects", link: "" },
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
   { name: "Contact", link: "mailto:yashsrivasta7a@gmail.com" },
   {
     name: "Resume",
     link: "https://drive.google.com/file/d/1bennsCbEEvs5AMXl9ICGs3QV6nc9bvYh/view?usp=sharing",
+    external: true,
   },
 ];
 

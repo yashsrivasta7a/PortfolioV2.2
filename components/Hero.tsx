@@ -8,9 +8,9 @@ const words = ["SRIVASTAVA", "SRIVASTA7A"];
 
 const Hero = () => {
   return (
-    <div className="mt-24">
-      <div className="h-100vh relative w-full z-20 flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <div className="w-full absolute inset-0 h-screen">
+    <div className="h-screen flex flex-col items-center justify-center mt-24">
+      <div className="h-full relative w-full z-20 flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <div className="w-full absolute inset-0 h-full">
           <SparklesCore
             id="tsparticlesfullpage"
             background="transparent"
@@ -22,7 +22,7 @@ const Hero = () => {
           />
         </div>
 
-        <div className="h-[40rem] flex flex-col justify-center items-center px-4 text-center">
+        <div className="flex flex-col justify-center items-center px-4 text-center">
           <div className="text-2xl sm:text-7xl mx-auto font-bold text-purple dark:text-purple">
             YASH
             <FlipWords
@@ -48,12 +48,10 @@ const Hero = () => {
       </div>
 
       <div
-        className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
-        absolute top-0 left-0 flex items-center justify-center"
+        className="absolute inset-0 z-0 h-full w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2] flex items-center justify-center"
       >
         <div
-          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100
-          bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+          className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
       </div>
     </div>

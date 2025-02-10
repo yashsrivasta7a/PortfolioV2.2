@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 export const FloatingNav = ({
@@ -45,11 +44,11 @@ export const FloatingNav = ({
         }}
       >
         {navItems.map((navItem, idx) =>
-          navItem.external ? (
+          navItem.external || navItem.link.startsWith("mailto:") ? (
             <a
               key={`link=${idx}`}
               href={navItem.link}
-              target="_blank"
+              target={navItem.external ? "_blank" : "_self"}
               rel="noopener noreferrer"
               className="relative dark:text-neutral-50 flex items-center space-x-6 text-neutral-600 dark:hover:text-purple hover:text-purple"
             >

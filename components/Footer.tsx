@@ -4,7 +4,7 @@ import MagicButton from "./MagicButton";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-10pb-10 relative z-10" id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
@@ -14,7 +14,7 @@ const Footer = () => {
         />
       </div>
 
-      <div className="flex flex-col items-center">
+      {/* <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           Let&apos;s <span className="text-purple">Connect</span>
         </h1>
@@ -23,7 +23,7 @@ const Footer = () => {
           position="right"
           icon={<FaLocationArrow />}
         />
-      </div>
+      </div> */}
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Yash Srivasta7a

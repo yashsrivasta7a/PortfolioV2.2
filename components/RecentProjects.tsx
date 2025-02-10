@@ -69,7 +69,7 @@ const RecentProjects = () => {
             </a>
           </div>
         </div>
-
+        
         {/* Card 4 */}
         <div className="relative overflow-hidden rounded-3xl border border-white/[0.2] w-fit dark:shadow-none bg-grid-pattern bg-cover bg-black-100 bg-center p-10">
           <div className="flex flex-col items-start gap-4">
