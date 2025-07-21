@@ -31,8 +31,6 @@ const config = {
     },
     extend: {
       colors: {
-        purple: "#8B5CF6",
-
         black: {
           DEFAULT: "#000",
           100: "#000319",
