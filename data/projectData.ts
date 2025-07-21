@@ -1,24 +1,31 @@
 const projectData = [
   {
-    image: "/bg1.png",
-    alt: "Tech 1",
-    title: "TRACK IT",
-    description: "Track your realtime location",
-    link: "https://trackit-o0j8.onrender.com/",
-  },
-  {
     image: "/b2.png",
-    alt: "Tech 2",
-    title: "Pixel Code",
-    description: "Freelance Work",
-    link: "https://www.behance.net/gallery/180922585/PIXEL-CODE-UI-DESIGN",
+    alt: "Flow4Life",
+    title: "Flow4Life",
+    description: "A modern water tracking and wellness app.",
+    link: "https://flow4life.vercel.app/",
   },
   {
-    image: "/b4.png",
-    alt: "Tech 4",
-    title: "NetPlay Book",
-    description: "Freelance Work",
-    link: "https://netplayexchange.com/",
+    image: "/b5.png",
+    alt: "DreamPix",
+    title: "DreamPix",
+    description: "AI-powered image generation platform.",
+    link: "https://dreampix.vercel.app/",
+  },
+  {
+    image: "/b6.png",
+    alt: "Aurora Play",
+    title: "Aurora Play",
+    description: "A next-gen music streaming experience.",
+    link: "https://aurora-play.vercel.app/",
+  },
+  {
+    image: "/bg1.png",
+    alt: "Law Link Web",
+    title: "Law Link Web",
+    description: "Legal services and lawyer discovery platform.",
+    link: "https://law-link-web.vercel.app/",
   },
   {
     image: "/b5.png",
@@ -27,15 +34,13 @@ const projectData = [
     description: "Hackathon Project",
     link: "https://organic-waste-to-energy.vercel.app/",
   },
-    {
+  {
     image: "/b6.png",
     alt: "Tech 6",
     title: "PokeDex",
     description: "Pokemon Wikipedia",
     link: "https://pokedex-ys7.vercel.app/",
   },
-
-
 ];
 
 export default projectData;

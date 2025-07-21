@@ -24,7 +24,7 @@ const Footer = () => {
           icon={<FaLocationArrow />}
         />
       </div> */}
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center mb-11">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Yash Srivasta7a
         </p>

@@ -13,7 +13,7 @@ const config = {
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
-    "./src/**/*.{ts,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
     "./data/**/*.{ts,tsx}",
   ],
   prefix: "",
@@ -31,12 +31,15 @@ const config = {
     },
     extend: {
       colors: {
+        purple: "#8B5CF6",
+
         black: {
           DEFAULT: "#000",
           100: "#000319",
           200: "rgba(17, 25, 40, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
         },
+
         white: {
           DEFAULT: "#FFF",
           100: "#BEC1DD",
