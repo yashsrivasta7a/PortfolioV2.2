@@ -16,7 +16,7 @@ const RecentProjects = () => {
   const [activeTab, setActiveTab] = useState("web");
 
   const renderProjects = (data: any[]) => (
-    <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+    <div className="z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
       {data.map((project, index) => (
         <div
           key={`${activeTab}-${index}`} // More unique key
